@@ -1,0 +1,27 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DH_VERBOSE=1
+
+%:
+	dh $@ --with python2
+
+overide_dh_auto_build:
+	cd c_src && make all
+
+override_dh_auto_build:
+	cd c_src && make all
+
+override_dh_auto_clean:
+	rm -rf *.egg-info
+	rm -rf c_src/*.o c_src/*.so
+	rm -rf sigpyproc/*.pyc
+	rm -rf lib
+	rm -rf build
+
+override_dh_auto_install:
+	true
+
+override_dh_auto_test:
+	true
+

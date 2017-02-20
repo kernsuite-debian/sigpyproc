@@ -1,0 +1,3 @@
+sigpyproc usr/lib/python2.7/dist-packages
+c_src/*.so usr/lib
+

@@ -1,43 +1,9 @@
-*.py[cod]
-*~
-
-# C extensions
-*.so
-*.o
-
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-lib
-lib64
-
-# Installer logs
-pip-log.txt
-
-# Unit test / coverage reports
-.coverage
-.tox
-nosetests.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
-
-#sigpyproc specific
-working_dir/
-Docs/
-build/
-lib/
+debian/debhelper-build-stamp
+debian/*.debhelper.log
+debian/*.postinst.debhelper
+debian/*.prerm.debhelper
+debian/*.substvars
+debian/sigpyproc/
+debian/files
+c_src/*.o
+c_src/*.so
