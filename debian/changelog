@@ -1,3 +1,9 @@
+sigpyproc (0.0+git20160115-1kern1) xenial; urgency=medium
+
+  * update signature
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 07 Nov 2017 17:15:37 +0200
+
 sigpyproc (0.0+git20160115-1) xenial; urgency=low
 
   * Initial release
