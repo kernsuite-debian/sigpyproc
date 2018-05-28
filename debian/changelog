@@ -1,3 +1,9 @@
+sigpyproc (0.0+git20160115-1kern2) bionic; urgency=medium
+
+  * New uptream release for bionic
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 28 May 2018 22:10:47 +0000
+
 sigpyproc (0.0+git20160115-1kern1) xenial; urgency=medium
 
   * update signature
